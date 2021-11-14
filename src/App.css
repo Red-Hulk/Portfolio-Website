@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
 :root {
   --primary-white: #fff;
@@ -6,17 +6,16 @@
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --primary-orange: #f9ab00;
-  --primary-dark: rgb(52,58,64);
+  --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
-  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
 }
 
 body {
-font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
-
 
 /************************ NAVBAR *********************************/
 
@@ -30,7 +29,7 @@ nav {
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -52,20 +51,20 @@ nav ul li {
   height: 6rem !important;
 }
 
-@media(max-width: 768px) {
- .navbar-brand {
-   width: 7rem;
- }
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-
 
 /************************ HEADER *********************************/
 
@@ -102,13 +101,12 @@ nav ul li {
   color: var(--primary-white);
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.7rem !important;
   }
   .typed-text {
     font-size: 1.3rem !important;
-
   }
 }
 
@@ -126,7 +124,7 @@ nav ul li {
   text-decoration: none;
   background-color: var(--primary-hover-red);
   color: var(--primary-white);
-  transition:  .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 /*-------- PARTICLES JS ---------------*/
@@ -137,7 +135,7 @@ nav ul li {
   z-index: 1;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .particles-canvas {
     display: none;
   }
@@ -154,7 +152,7 @@ nav ul li {
   width: 16rem;
   height: 16rem;
   border-radius: 50%;
-  padding: .3rem;
+  padding: 0.3rem;
   border: 1px solid var(--primary-orange);
 }
 
@@ -163,10 +161,10 @@ nav ul li {
   text-transform: uppercase;
 }
 
-@media(max-width: 468px) {
+@media (max-width: 468px) {
   .profile-img {
     width: 10rem;
-    height: 10rem;;
+    height: 10rem;
   }
 }
 
@@ -199,7 +197,6 @@ nav ul li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .services .box {
   height: 16rem;
@@ -248,7 +245,7 @@ nav ul li {
   color: var(--primary-orange);
 }
 
-.experience-wrapper::before{
+.experience-wrapper::before {
   position: absolute;
   content: "";
   top: 0;
@@ -293,19 +290,18 @@ nav ul li {
   direction: ltr;
 }
 
-.timeline-content h3{
+.timeline-content h3 {
   margin-top: 0.3125rem;
   color: var(--primary-red);
   font-weight: 900;
 }
 
 /* ------------------------MEDIA ----------------- */
-@media(max-width: 768px){
-
-  .experience .container{
+@media (max-width: 768px) {
+  .experience .container {
     padding-left: 0;
   }
-  .experience-wrapper::before{
+  .experience-wrapper::before {
     left: 0.5rem;
     margin-bottom: 1.875rem;
   }
@@ -321,7 +317,6 @@ nav ul li {
     width: 100%;
   }
 }
-
 
 /* ------------------------ PORTFOLIO----------------- */
 .portfolio-wrapper {
@@ -339,11 +334,10 @@ nav ul li {
   padding: 0 0.5rem;
 }
 
-.portfolio-image-box{
+.portfolio-image-box {
   position: relative;
   margin: 1rem;
 }
-
 
 /* ------------------------ OVERFLOW BOX ----------------- */
 .overflow {
@@ -362,7 +356,6 @@ nav ul li {
   transition: 0.2s ease-in-out;
 }
 
-
 .portfolio-icon {
   position: absolute;
   opacity: 0;
@@ -378,7 +371,6 @@ nav ul li {
   cursor: pointer;
 }
 
-
 /* ------------------------ POPUP BOX ----------------- */
 .portfolio-image-popupbox {
   width: 45rem;
@@ -390,7 +382,7 @@ nav ul li {
   color: var(--primary-orange);
 }
 
-.hyper-link:hover{
+.hyper-link:hover {
   color: var(--primary-hover-red);
 }
 
@@ -409,7 +401,7 @@ nav ul li {
     width: 50%;
   }
 }
-  
+
 @media (max-height: 280px) {
   .popupbox-wrapper {
     height: 90%;
@@ -418,7 +410,6 @@ nav ul li {
     width: 30%;
   }
 }
-
 
 /* ------------------------ TESTIMONIALS----------------- */
 .testimonials {
@@ -484,5 +475,92 @@ nav ul li {
   margin-top: 3% !important;
 }
 
+/* ------------------------ CONTACTS ----------------- */
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
 
-  
+.contacts h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+/************************ INPUTS *********************************/
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  color: var(--primary-orange);
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-grey);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contacts textarea {
+  height: 12.46rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  height: 0.125rem;
+  top: -0.8rem;
+  width: 0;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control, textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+/************************ INPUTS MEDIA *********************************/
+
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.5rem;
+  }
+}
