@@ -1,8 +1,6 @@
 import React from "react";
-import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import Angular from "../images/Angular_project.png";
+import School from "../images/Android_school_opdracht.png";
 // FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -16,9 +14,10 @@ const Portfolio = () => {
   const openPopupboxNetflix = () => {
     const content = (
       <>
-      <img className="portfolio-image-popupbox" src={netflix} alt="Netflix" />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, eligendi?</p>
-      <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/Filmsuggestie-Applicatie", "_blank")}>https://github.com/Red-Hulk/Filmsuggestie-Applicatie</a>
+      <p className="porfolio-heading">Angular Applicatie</p>
+      <img className="portfolio-image-popupbox" src={Angular} alt="Angular" />
+      <p>Een Angular applicatie nagebouwd om goed de basis onder de knee te krijgen.</p>
+      <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/Angular_learn_project", "_blank")}>https://github.com/Red-Hulk/Angular_learn_project</a>
     </>
     )
     
@@ -27,8 +26,8 @@ const Portfolio = () => {
 
   const popupboxConfigNetflix = {
     titleBar: {
-      enable: true,
-      text: "Netflix"
+      enable: true, 
+      text: ""
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -38,9 +37,10 @@ const Portfolio = () => {
   const openPopupboxCityGuide = () => {
     const content = (
       <>
-      <img className="portfolio-image-popupbox" src={cityGuide} alt="CityGuide" />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, eligendi?</p>
-      <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/Filmsuggestie-Applicatie", "_blank")}>https://github.com/Red-Hulk/Filmsuggestie-Applicatie</a>
+      <p className="porfolio-heading">Android Applicatie</p>
+      <img className="portfolio-image-popupbox" src={School} alt="Android" />
+      <p>Dit is een Android applicatie die ik voor school heb gemaakt met Java met Android Studio</p>
+      <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/AndroidAlliance", "_blank")}>https://github.com/Red-Hulk/AndroidAlliance</a>
     </>
     )
     
@@ -50,57 +50,11 @@ const Portfolio = () => {
   const popupboxConfigCity = {
     titleBar: {
       enable: true,
-      text: "CityGuide"
+      text: ""
     },
     fadeIn: true,
     fadeInSpeed: 500
   }
-
-  //Portfolio
-  const openPopupboxPortfolio = () => {
-    const content = (
-      <>
-      <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio" />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, eligendi?</p>
-      <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/Filmsuggestie-Applicatie", "_blank")}>https://github.com/Red-Hulk/Filmsuggestie-Applicatie</a>
-    </>
-    )
-    
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigPortfolio = {
-    titleBar: {
-      enable: true,
-      text: "Portfolio"
-    },
-    fadeIn: true,
-    fadeInSpeed: 500
-  }
-
-
-  //taskmanager
-  const openPopupboxTaskmanager = () => {
-    const content = (
-      <>
-      <img className="portfolio-image-popupbox" src={taskManager} alt="Portfolio" />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, eligendi?</p>
-      <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/Filmsuggestie-Applicatie", "_blank")}>https://github.com/Red-Hulk/Filmsuggestie-Applicatie</a>
-    </>
-    )
-    
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigTaskmanager = {
-    titleBar: {
-      enable: true,
-      text: "Taskmanager"
-    },
-    fadeIn: true,
-    fadeInSpeed: 500
-  }
-
 
 
   
@@ -112,25 +66,13 @@ const Portfolio = () => {
         {/*  */}
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
-            <img className="portfolio-image" src={netflix} alt="Netflix" />
+            <img className="portfolio-image" src={Angular} alt="Angular" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/*  */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-            <img className="portfolio-image" src={cityGuide} alt="City Guide" />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
-          {/*  */}
-          <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-            <img className="portfolio-image" src={portfolio} alt="Portfolio" />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
-          {/*  */}
-          <div className="portfolio-image-box" onClick={openPopupboxTaskmanager}>
-            <img className="portfolio-image" src={taskManager} alt="Taskmanager" />
+            <img className="portfolio-image" src={School} alt="Android" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
@@ -138,8 +80,6 @@ const Portfolio = () => {
       </div>
       <PopupboxContainer {...popupboxConfigNetflix}/>
       <PopupboxContainer {...popupboxConfigCity}/>
-      <PopupboxContainer {...popupboxConfigPortfolio}/>
-      <PopupboxContainer {...popupboxConfigTaskmanager}/>
     </div>
   )
 }

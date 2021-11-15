@@ -318,6 +318,7 @@ nav ul li {
 .portfolio-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
+  margin: 7rem 0;
 }
 
 .portfolio-wrapper h1 {
@@ -333,6 +334,14 @@ nav ul li {
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
+}
+
+.porfolio-heading {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary-orange);
 }
 
 /* ------------------------ OVERFLOW BOX ----------------- */

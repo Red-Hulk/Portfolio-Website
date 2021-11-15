@@ -38,8 +38,8 @@ const Contacts = () => {
   return (
     <div id="contacts" className="contacts">
       <div className="text-center">
-        <h1>contact me</h1>
-        <p>Please fill out the form</p>
+        <h1>Contacteer mij</h1>
+        <p>U kunt hier het contactformulier invullen</p>
       </div>
       <div className="container">
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -50,7 +50,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Name"
+                  placeholder="Naam"
                   name="name"
                 />
                 <div className="line"></div>
@@ -60,7 +60,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Phone Number"
+                  placeholder="Telefoon"
                   name="phone"
                 />
                 <div className="line"></div>
@@ -70,7 +70,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Email"
+                  placeholder="Mail"
                   name="email"
                 />
                 <div className="line"></div>
@@ -80,7 +80,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Subject"
+                  placeholder="Onderwerp"
                   name="subject"
                 />
                 <div className="line"></div>
@@ -93,13 +93,13 @@ const Contacts = () => {
                 <textarea
                   type="text"
                   className="form-control"
-                  placeholder="Write a message"
+                  placeholder="Schrijf een bericht"
                   name="description"
                 ></textarea>
                 <div className="line"></div>
               </div>
               <button className="btn-main-offer contact-btn" type="submit">
-                Contact me
+                Contacteer
               </button>
             </div>
           </div>

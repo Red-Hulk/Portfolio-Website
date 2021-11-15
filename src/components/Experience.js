@@ -28,7 +28,20 @@ export const Experience = () => {
                         <p>
                             Door corona kon mijn contract niet worden verlengd bij Lucrasoft. 
                             Ik wilde graag een sterke fundamentele basis bouwen als software engineer. 
-                            Daarom heb ik ervoor gekozen om de HBO opleiding Informatica te volgen. 
+                            Daarom heb ik ervoor gekozen om de HBO opleiding Informatica te gaan volgen. 
+                        </p>
+                    </div>
+               </div>
+                 {/*  */}
+               <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2021-Heden</h3>
+                        <h4 className="company-heading">Van der Lelie</h4>
+                        <p>
+                            Ik wilde graag praktijkervaring opdoen tijdens mijn studie. 
+                            Door hard werken heb ik een bijbaan kunnen bemachtigen als webdeveloper. 
+                            Hier leer ik vooral back-end programmeren in .NET Core.
                         </p>
                     </div>
                </div>

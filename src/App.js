@@ -41,8 +41,7 @@ function App() {
       <AboutMe />
       <Services/>
       <Experience/>
-      <Portfolio/> 
-      <Testimonials/> 
+      <Portfolio/>  
       <Contacts/>
       <Footer/>
     </>
