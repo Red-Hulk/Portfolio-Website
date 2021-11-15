@@ -23,10 +23,6 @@ nav {
   z-index: 2;
 }
 
-.logo {
-  width: 16.25rem;
-}
-
 /*----- MENU LINKS --------*/
 nav a.nav-link {
   font-size: 0.8rem;
@@ -51,11 +47,7 @@ nav ul li {
   height: 6rem !important;
 }
 
-@media (max-width: 768px) {
-  .navbar-brand {
-    width: 7rem;
-  }
-}
+
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
@@ -294,6 +286,10 @@ nav ul li {
   margin-top: 0.3125rem;
   color: var(--primary-red);
   font-weight: 900;
+}
+
+.company-heading {
+  color: var(--primary-orange);
 }
 
 /* ------------------------MEDIA ----------------- */

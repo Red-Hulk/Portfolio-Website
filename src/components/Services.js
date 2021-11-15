@@ -1,12 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle, faAndroid } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
     <div id="services" className="services">
-      <h1 className="py-5">My Services</h1>
+      <h1 className="py-5">Mijn Diensten</h1>
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-6">
@@ -14,9 +14,9 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
               </div>
-              <h3>Web Design</h3>
+              <h3>Websites</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Websites bouwen met HTML/CSS &amp; Javascript
               </p>
             </div>
           </div>
@@ -26,9 +26,9 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
-              <h3>Web Developement</h3>
+              <h3>Back-end Technologieën</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                Programmeren in C# en Java 
               </p>
             </div>
           </div>
@@ -36,11 +36,11 @@ const Services = () => {
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
+                <FontAwesomeIcon className="icon" icon={faAndroid} size="2x" />
               </div>
-              <h3>Facebook Ads SMM</h3>
+              <h3>Android</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                Android applicaties bouwen met Java
               </p>
             </div>
           </div>
@@ -50,9 +50,9 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
               </div>
-              <h3>Google Ads</h3>
+              <h3>Angular</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                Basiskennis van Angular
               </p>
             </div>
           </div>

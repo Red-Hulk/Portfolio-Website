@@ -11,13 +11,12 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">about me</h1>
+          <h1 className="about-heading">over mij</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-            vel eveniet dolorem soluta voluptate impedit ad commodi ipsam et aut
-            minus neque, est velit reiciendis delectus possimus, ab
-            reprehenderit molestiae asperiores odit perspiciatis? Nisi veritatis
-            animi perspiciatis vitae neque pariatur.
+            Ik ben Tristan en ik ben 26 jaar oud. Webdevelopment is mijn passie en daar houd ik mij graag mee bezig.
+            Ik vind het leuk om websites, webapps &amp; Android applicaties te bouwen. 
+            Daarnaast ben ik ook bezig met back-end programmeren in .Net Core. 
+            Ik leer graag de nieuwste technologieën en elke dag probeer ik beter en beter te worden in mijn vak!
           </p>
         </div>
       </div>
