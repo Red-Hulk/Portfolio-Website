@@ -11,7 +11,7 @@ export const Experience = () => {
                <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>Dit is Tristan</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eum eaque impedit ratione delectus, veritatis accusamus, facere repellat quae tenetur quos modi accusantium eius et aperiam, quam tempore? Unde voluptatem culpa quidem. Excepturi, accusamus cumque necessitatibus autem eum nemo voluptate?</p>
                     </div>
                </div>
