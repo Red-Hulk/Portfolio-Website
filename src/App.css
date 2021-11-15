@@ -153,6 +153,10 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.about-text h1{
+  text-align: center;
+}
+
 @media (max-width: 468px) {
   .profile-img {
     width: 10rem;

@@ -10,7 +10,7 @@ const AboutMe = () => {
             <img className="profile-img" src={author} alt="author..." />
           </div>
         </div>
-        <div className="col-lg-6 col-xm-12">
+        <div className="col-lg-6 col-xm-12 about-text">
           <h1 className="about-heading">over mij</h1>
           <p>
             Ik ben Tristan en ik ben 26 jaar oud. Webdevelopment is mijn passie en daar houd ik mij graag mee bezig.

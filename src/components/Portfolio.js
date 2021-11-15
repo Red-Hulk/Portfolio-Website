@@ -16,7 +16,7 @@ const Portfolio = () => {
       <>
       <p className="porfolio-heading">Angular Applicatie</p>
       <img className="portfolio-image-popupbox" src={Angular} alt="Angular" />
-      <p>Een Angular applicatie nagebouwd om goed de basis onder de knee te krijgen.</p>
+      <p>Angular applicatie nagebouwd om goed de basis onder de knee te krijgen.</p>
       <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Red-Hulk/Angular_learn_project", "_blank")}>https://github.com/Red-Hulk/Angular_learn_project</a>
     </>
     )
